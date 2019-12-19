@@ -139,7 +139,7 @@ class Canvas {
             this.uiCtx.clearRect(0, 0, 300, 100);
             this.uiCtx.fillStyle = "black";
             this.uiCtx.font = '20px sans-serif';
-            this.uiCtx.fillText("Hearts: " + state.score + "/" + state.itemCount, 20, 30);
+            this.uiCtx.fillText("Paket: " + state.score + "/" + state.itemCount, 20, 30);
             this.uiCtx.fillText("Ammo: " + state.rocks + "/30", 20, 50)  
         }
     }
